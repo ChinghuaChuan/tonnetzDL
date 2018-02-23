@@ -20,22 +20,18 @@ $ python tonnetz_dn.py MuseData_train_tonnetz_vocab_p2.pickle MuseData_train_ton
 $ python tonnetz_dn_generate.py MuseData_train_tonnetz_vocab_p2.pickle MuseData_test_tonnetz_p2.pickle
 
 $ python tonnetz_dn.py -h
-usage: tonnetz_dn.py [-h] [--valid VALID] [--test TEST] [--CNNepoch CNNEPOCH]
-                     [--LSTMepoch LSTMEPOCH]
-                     vocab train
+usage: tonnetz_dn.py [-h] [--valid VALID] [--test TEST] [--CNNepoch CNNEPOCH] [--LSTMepoch LSTMEPOCH] vocab train
 
 positional arguments:
-  vocab                 vocabulary pickle file for tonnetz autoencoder
-                        (Required)
-  train                 pickle file for training (Required)
+  - vocab: vocabulary pickle file for tonnetz autoencoder (Required)
+  - train: pickle file for training (Required)
 
 optional arguments:
   -h, --help            show this help message and exit
   --valid VALID         pickle file for validation
   --test TEST           pickle file for testing
   --CNNepoch CNNEPOCH   training epoch for CNN autoencoder
-  --LSTMepoch LSTMEPOCH
-                        training epoch for LSTM
+  --LSTMepoch LSTMEPOCH training epoch for LSTM
 
 The trained model (on MuseData and other pickle files in the examples) can be downloaded from: https://drive.google.com/open?id=1g_sxEKwrP9Wqt3YH99eEO1aXmmAqDbui
 
