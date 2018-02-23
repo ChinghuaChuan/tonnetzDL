@@ -12,12 +12,12 @@ File tonnetz_dn.py
 File tonnetz_dn_generate.py
 - Generate music sequences given the first 16 beats using the trained model (output of tonnetz_dn.py)
 
-Examples:
-$ python2 tonnetz_dn.py MuseData_train_tonnetz_vocab_p2.pickle MuseData_train_tonnetz_p2.pickle  --LSTMepoch 1
+Examples: (tested on Python2.7 and tensorflow 1.0)
+$ python tonnetz_dn.py MuseData_train_tonnetz_vocab_p2.pickle MuseData_train_tonnetz_p2.pickle  --LSTMepoch 1
 
-$ python2 tonnetz_dn_generate.py MuseData_train_tonnetz_vocab_p2.pickle MuseData_test_tonnetz_p2.pickle
+$ python tonnetz_dn_generate.py MuseData_train_tonnetz_vocab_p2.pickle MuseData_test_tonnetz_p2.pickle
 
-$ python2 tonnetz_dn.py -h
+$ python tonnetz_dn.py -h
 usage: tonnetz_dn.py [-h] [--valid VALID] [--test TEST] [--CNNepoch CNNEPOCH]
                      [--LSTMepoch LSTMEPOCH]
                      vocab train
