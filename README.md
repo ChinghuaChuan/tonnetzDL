@@ -9,6 +9,7 @@ If you have any questions regarding the code, please email to c.chuan@miami.edu
 
 File tonnetz_dn.py
 - First pre-train the CNN autoencoder and then train LSTM for 16-beat sequences
+
 File tonnetz_dn_generate.py
 - Generate music sequences given the first 16 beats using the trained model (output of tonnetz_dn.py)
 
