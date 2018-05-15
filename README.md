@@ -33,6 +33,8 @@ optional arguments:
   --CNNepoch CNNEPOCH   training epoch for CNN autoencoder
   --LSTMepoch LSTMEPOCH training epoch for LSTM
 
-The trained model (on MuseData and other pickle files in the examples) can be downloaded from: https://drive.google.com/open?id=1g_sxEKwrP9Wqt3YH99eEO1aXmmAqDbui
+The trained model (on MuseData and other pickle files in the examples) can be downloaded from: 
+https://drive.google.com/open?id=1g_sxEKwrP9Wqt3YH99eEO1aXmmAqDbui
+https://drive.google.com/open?id=1_G_Kvl9A5DAkj9t-8-6F5WnBaZSXZKJL
 
 
