@@ -35,6 +35,7 @@ optional arguments:
 
 The trained model (on MuseData and other pickle files in the examples) can be downloaded from: 
 https://drive.google.com/open?id=1g_sxEKwrP9Wqt3YH99eEO1aXmmAqDbui
-https://drive.google.com/open?id=1_G_Kvl9A5DAkj9t-8-6F5WnBaZSXZKJL
+
+https://drive.google.com/open?id=1wIT30ESBiKRui8qCsxTTBpNeYkK-Ti90
 
 
